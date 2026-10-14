@@ -9,7 +9,7 @@ Repositorio dedicado al desarrollo, experimentación y análisis forense de los 
 ```text
 ├── Lab-1/          # Cifrados clásicos, esteganografía y análisis ICMP
 ├── Lab-2/          # Fuerza bruta (DVWA), Docker y análisis forense en Wireshark
-├── Lab-3/          # [Próxima entrega]
+├── Lab-3/          # Algoritmos de Hash
 ├── Lab-4/          # [Próxima entrega]
 ├── Lab-5/          # [Próxima entrega]
 └── README.md

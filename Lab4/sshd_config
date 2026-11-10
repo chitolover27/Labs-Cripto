@@ -1,0 +1,19 @@
+Port 22
+ListenAddress 0.0.0.0
+
+# Algoritmos criptográficos requeridos por el laboratorio
+KexAlgorithms curve25519-sha256
+Ciphers aes256-ctr
+MACs hmac-sha2-256
+HostKeyAlgorithms ssh-ed25519
+
+# Clave de host del servidor
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Autenticación y permisos
+PermitRootLogin no
+PasswordAuthentication yes
+PubkeyAuthentication yes
+
+# Requerido para la ejecución de sshd dentro del contenedor
+PidFile /var/run/sshd.pid
